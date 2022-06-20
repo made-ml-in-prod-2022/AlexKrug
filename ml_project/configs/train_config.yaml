@@ -1,0 +1,26 @@
+input_data_path: "data/raw/heart_disease.csv"
+output_model_path: "models/model.pkl"
+metric_path: "models/metrics.json"
+train_params:
+  model_type: "CatBoostClassifier"
+splitting_params:
+  val_size: 0.2
+  random_state: 42
+feature_params:
+  categorical_features:
+    - "ca"
+    - "cp"
+    - "exang"
+    - "fbs"
+    - "restecg"
+    - "sex"
+    - "slope"
+    - "thal"
+  numerical_features:
+    - "age"
+    - "chol"
+    - "oldpeak"
+    - "thalach"
+    - "trestbps"
+  features_to_drop: []
+  target_col: "condition"

@@ -1,0 +1,18 @@
+feature_params:
+  categorical_features:
+    - "ca"
+    - "cp"
+    - "exang"
+    - "fbs"
+    - "restecg"
+    - "sex"
+    - "slope"
+    - "thal"
+  numerical_features:
+    - "age"
+    - "chol"
+    - "oldpeak"
+    - "thalach"
+    - "trestbps"
+  features_to_drop: []
+  target_col: "condition"
