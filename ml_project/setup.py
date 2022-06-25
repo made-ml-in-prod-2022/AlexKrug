@@ -10,7 +10,7 @@ setup(
         "numpy==1.21.5",
         "click==8.0.4",
         "scikit-learn==1.0.2",
-        "dataclasses==0.8",
+        "dataclasses==0.6",
         "pyyaml==6.0",
         "marshmallow-dataclass==8.5.8",
         "pandas==1.3.5",
