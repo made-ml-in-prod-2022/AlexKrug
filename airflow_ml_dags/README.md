@@ -3,5 +3,5 @@ made by AlexKrug MADE-ML-22
 
 Запуск
 ------
-docker compose up
+```docker compose up```
 
